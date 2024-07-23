@@ -1,12 +1,18 @@
 package umg.progra2;
 
 public class PKG_grupo2 {
-    public void unodos(){
-        double a = 4;
-        double b = 3;
 
-        double areaa = (a * b) / 2;
+    public double dosuno(double eebase, double eealtura){
+        double areaa = (eebase * eealtura) / 2;
 
-        System.out.println("\nEl area de una piramide cuadrada es: "+ areaa);
+        return areaa;
     }
+
+
+    public double dosdos(double eebase, double eealtura){
+        double eevolumen = (eebase * eealtura) / 3;
+
+        return eevolumen;
+    }
+
 }

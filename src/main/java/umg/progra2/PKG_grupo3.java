@@ -1,14 +1,23 @@
 package umg.progra2;
 
 public class PKG_grupo3 {
-    public void unotres(){
-        double volumen;
 
-        double area_base = 100;
-        double altura = 50;
+    public double tresuno(double eebase, double eealtura){
+        double eevolumen;
 
-        volumen= area_base * altura;
-        System.out.println("\nEl volumen del prisma de 100 area base yb 50 de altura es: "+ volumen);
-
+        return eevolumen = eebase * eealtura;
     }
+
+
+    public double trestres(double radio, double eealtura){
+        double eevolumen;
+        double pi = 3.1416;
+
+        return eevolumen = pi * Math.pow(radio, 2) * eealtura;
+    }
+
+
+
+
+
 }
